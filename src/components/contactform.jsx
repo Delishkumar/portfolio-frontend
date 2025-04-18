@@ -16,7 +16,7 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-       axios.post("http://localhost:5000/api/user",formData)
+       axios.post("https://portfolio-backend-c8vj.onrender.com/api/user",formData)
        alert("Message sent successfully!");
        setFormData({ name: "", email: "", message: "" });
     } catch (error) {
