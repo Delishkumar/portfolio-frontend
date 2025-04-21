@@ -21,7 +21,7 @@ const experienceData = [
 
 const Experience = () => {
   return (
-    <section className="py-16">
+    <section className="py-16 m-5">
       <h2 className="text-4xl font-bold text-center mb-5 text-blue-600">💼 Experience</h2>
       <div className="max-w-4xl mx-auto space-y-8">
         {experienceData.map((exp, i) => (

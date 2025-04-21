@@ -35,7 +35,7 @@ const certificateData = [
 
 const Education = () => {
   return (
-    <section id="education" className="min-h-screen">
+    <section id="education" className="min-h-screen m-5">
       <motion.div
         initial={{ opacity: 0, y: 60 }}
         whileInView={{ opacity: 1, y: 0 }}

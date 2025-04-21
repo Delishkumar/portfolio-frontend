@@ -17,7 +17,7 @@ import Footer from "./footer";
     setIsSubmitting(true);
     try {
       
-      await axios.post("https://portfolio-be-kmx2.onrender.com/api/user", formData);
+       axios.post("https://portfolio-be-kmx2.onrender.com/api/user", formData);
       setSuccess(true);
       setFormData({ name: "", email: "", message: "" });
     } catch (error) {
@@ -30,7 +30,7 @@ import Footer from "./footer";
 
   return (
     <div>
-    <div className="bg-gradient-to-r from-amber-400 to-white  p-14">
+    <div className="  p-14">
     <div className="max-w-md mx-auto mt-10 p-6 bg-transparent shadow-2xl rounded-2xl">
       
       <motion.h2
