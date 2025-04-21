@@ -74,7 +74,7 @@ const fadeInUp = {
             delay={0.3}
             bg="from-green-400 to-green-200"
             liveLink="https://delishkumar.github.io/tripadviser-project/"
-            githubLink="https://github.com//tripadvisor-clone"
+            githubLink="https://github.com/Delishkumar/tripadviser-project"
           />
   
           <ProjectCard
@@ -84,8 +84,8 @@ const fadeInUp = {
             stack="HTML, CSS, JavaScript"
             delay={0.4}
             bg="from-pink-400 to-pink-200"
-            liveLink="https://delishkumar.github.io/meeshoclone/"
-            githubLink="https://github.com/Delishkumar/meesho-clone"
+            liveLink=" https://delishkumar.github.io/meeshoclone/"
+            githubLink="https://github.com/Delishkumar/meeshoclone"
           />
   
           <ProjectCard
@@ -96,7 +96,7 @@ const fadeInUp = {
             delay={0.5}
             bg="from-purple-400 to-purple-200"
             liveLink="https://udamy-clone-sigma.vercel.app/"
-            githubLink="https://github.com/Delishkumar/udamy-clone"
+            githubLink="https://github.com/Delishkumar/udamy-react"
           />
   
        

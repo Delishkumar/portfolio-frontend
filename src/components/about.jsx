@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import Education from "./education";
 import Experience from "./experience";
+import Skil from "./skil";
 export default function About() {
   return (
     <div>
@@ -29,6 +30,7 @@ export default function About() {
       
       </motion.p>
     </motion.div>
+    <Skil/>
 <Education/>
 <Experience/>
 </div>
