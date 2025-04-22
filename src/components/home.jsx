@@ -32,7 +32,7 @@ function Home(){
 
 
 
-<a href= {resume} download="Delish Resume.pdf">< button class="cursor-pointer flex justify-between bg-lime-500 px-3 py-2 rounded-full text-white tracking-wider shadow-xl hover:bg-gray-900 hover:scale-105 duration-500 hover:ring-1 font-mono w-[150px]"
+<a href= {resume} download="Delish Resume.pdf">< button class="cursor-pointer flex justify-between bg-lime-500 px-3 py-2 rounded-full text-white tracking-wider shadow-xl hover:bg-amber-500 hover:scale-105 duration-500 hover:ring-1 font-mono w-[170px] md:w-[150px]"
 >
 
  Download CV 
@@ -120,7 +120,7 @@ function Home(){
         </div>
 
 
-        <div className='flex justify-evenly py-6 mt-5 md:mt-1'>
+        <div className='flex  py-6 mt-5 md:mt-1 flex-col items-center gap-7 md:justify-evenly md:flex-row'>
             <img src={HTML} style={{ width: "50px" }} alt='HTML' className="hover:hover:scale-125 transition-transform duration-300" />
             <img src={CSS} style={{ width: "50px" }}  alt='CSS'className="hover:hover:scale-125 transition-transform duration-300"/>
             <img src={TAILWIND} style={{ width: "50px" }}  alt='tailwind' className="hover:hover:scale-125 transition-transform duration-300"/>

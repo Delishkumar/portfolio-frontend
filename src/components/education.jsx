@@ -49,7 +49,7 @@ const Education = () => {
           {educationData.map((edu, idx) => (
             <motion.div
               key={idx}
-              initial={{ opacity: 0, x: -250 }} // start hidden and off-screen left
+              initial={{ opacity: 0, x: -150 }} // start hidden and off-screen left
               whileInView={{ opacity: 1, x: 0 }} // animate into view
               transition={{ duration: 0.9, ease: "easeInOut" }}
               viewport={{ once: true, amount: 0.3 }} 
@@ -69,7 +69,7 @@ const Education = () => {
           {certificateData.map((cert, idx) => (
             <motion.div
               key={idx}
-              initial={{ opacity: 0, x: 250 }} // start hidden and off-screen left
+              initial={{ opacity: 0, x: 150 }} // start hidden and off-screen left
               whileInView={{ opacity: 1, x: 0 }} // animate into view
               transition={{ duration: 0.9, ease: "easeIn" }}
               viewport={{ once: true, amount: 0.3 }} 

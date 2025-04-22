@@ -5,7 +5,7 @@ import REACTICON from './images/physics.png'
 import DB from './images/db.png'
 import NODE from './images/nodejs.png'
 import TAILWIND from './images/tailwindcss.png'
-import GIT from './images/git.png'
+import REDUX from './images/redux.png'
 import POSTMAN from './images/postman.png'
 import FIREBASE from './images/firebase.png'
 
@@ -18,24 +18,60 @@ function Skil(){
             <div>
              
                 <h2 className='text-orange-500 text-center pt-3 text-2xl m-8 font-extrabold'>Frontend</h2>
-                <div className='flex justify-evenly'>
-                        <img src={HTML} style={{ width: "70px" }} alt='HTML'/>
-                                <img src={CSS} style={{ width: "70px" }}  alt='CSS' />
-                                <img src={TAILWIND} style={{ width: "70px" }}  alt='tailwind'  />
-                                <img src={JS} style={{ width: "60px" }} alt='JS'  />
-                                   <img src={REACTICON} style={{ width: "70px" }}  alt='react' />
+                <div className='flex flex-col items-center gap-7 md:justify-evenly md:flex-row'>
+                    <div className='text-center'><img src={HTML} style={{ width: "70px" }} alt='HTML'/>
+                    <p className='p-2 font-mono text-red-500'>HTML</p>
+                    </div>
+                        <div className='text-center'>
+                        <img src={CSS} style={{ width: "70px" }}  alt='CSS' className=' hover:hover:scale-125 transition-transform duration-300'/>
+                        <p className='p-2 font-mono text-blue-500'>CSS</p>
+                        </div>
+                               <div className='text-center'>
+                               <img src={TAILWIND} style={{ width: "70px" }}  alt='tailwind'   className=' hover:hover:scale-125 transition-transform duration-300'/>
+                               <p className='p-2 font-mono text-blue-700'>Tailwindcss</p>
+                               </div>
+                               <div className='text-center'>
+                               <img src={JS} style={{ width: "60px" }} alt='JS'  className=' hover:hover:scale-125 transition-transform duration-300' />
+                                <p className='p-2 font-mono text-yellow-500'>Javascript</p>
+                               </div>
+                               <div className='text-center'>
+                               <img src={REACTICON} style={{ width: "70px" }}  alt='react'  className=' hover:hover:scale-125 transition-transform duration-300'/>
+                                <p className='p-2 font-mono text-sky-400'>React js</p>
+                               </div>
+                                   
                 </div>
             </div>
 
             <div className='p-7'>
              
              <h2 className='text-orange-500 text-center p-10 text-2xl text mt-8 font-extrabold'>Backend</h2>
-             <div className='flex justify-evenly'>
-                 <img src={DB} style={{ width: "80px" }} alt='DB' />
-                           <img src={NODE} style={{ width: "70px" }} alt='node' />
-                           <img src={POSTMAN} style={{ width: "70px" }} alt='postman' />
-                           <img src={FIREBASE} style={{ width: "70px" }} alt='firebase'/>
-                           <img src={GIT} style={{ width: "70px" }} alt='git'/>
+             <div className='flex flex-col items-center gap-7 md:justify-evenly md:flex-row'>
+                <div className='text-center'>
+                <img src={DB} style={{ width: "80px" }} alt='DB'  className=' hover:hover:scale-125 transition-transform duration-300'/>
+                    <p className='p-2 font-mono text-green-600'>MongoDB</p>
+                </div>
+                <div className='text-center'>
+                <img src={NODE} style={{ width: "70px" }} alt='node'  className=' hover:hover:scale-125 transition-transform duration-300'/>
+                <p className='p-2 font-mono text-lime-600'>Node js</p>
+                </div>
+                <div className='text-center'>
+                    
+                <img src={POSTMAN} style={{ width: "70px" }} alt='postman'  className=' hover:hover:scale-125 transition-transform duration-300'/>
+                <p className='p-2 font-mono text-red-600'>Postman</p>
+                </div>
+                <div className='text-center'>
+                <img src={FIREBASE} style={{ width: "70px" }} alt='firebase'  className=' hover:hover:scale-125 transition-transform duration-300'/>
+                <p className='p-2 font-mono text-orange-500'>Firebase</p>
+                </div>
+                <div className='text-center'>
+                <img src={REDUX} style={{ width: "70px" }} alt='redux'  className=' hover:hover:scale-125 transition-transform duration-300'/>
+                <p className='p-2 font-mono text-sky-500'>Redux</p>
+                </div>
+                 
+                          
+                           
+                      
+                           
              </div>
          </div>
 
