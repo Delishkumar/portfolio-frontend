@@ -22,9 +22,7 @@ function Home(){
         MERN Stack Developer
       </h1>
     
-              <p className='py-2'>"Hi, I'm a MERN Stack Developer passionate about building fast, full-stack web applications.
-            
-            From responsive frontends to powerful backends, I bring ideas to life with modern tech."</p>
+              <p className='py-2'>"Hi, I'm a MERN Stack Developer passionate about building fast, full-stack web applications".</p>
 
             <div className="grid justify-center md:justify-start">
               <img src={myimage} className='w-60 block sm:hidden' alt="my-p" />
@@ -120,14 +118,14 @@ function Home(){
         </div>
 
 
-        <div className='flex  py-6 mt-5 md:mt-1 flex-col items-center gap-7 md:justify-evenly md:flex-row'>
+        <div className='  py-6 flex mt-1 flex-row items-center gap-7 justify-evenly'>
             <img src={HTML} style={{ width: "50px" }} alt='HTML' className="hover:hover:scale-125 transition-transform duration-300" />
-            <img src={CSS} style={{ width: "50px" }}  alt='CSS'className="hover:hover:scale-125 transition-transform duration-300"/>
+            <img src={CSS} style={{ width: "50px" }}  alt='CSS'className=" animate-bounce"/>
             <img src={TAILWIND} style={{ width: "50px" }}  alt='tailwind' className="hover:hover:scale-125 transition-transform duration-300"/>
             <img src={JS} style={{ width: "50px" }} alt='JS' className="hover:hover:scale-125 transition-transform duration-300"/>
-            <img src={REACTICON} style={{ width: "50px" }}  alt='react' className="hover:hover:scale-125 transition-transform duration-300"/>
-            <img src={DB} style={{ width: "50px" }} alt='DB' className="hover:hover:scale-125 transition-transform duration-300"/>
-            <img src={NODE} style={{ width: "50px" }} alt='node' className="hover:hover:scale-125 transition-transform duration-300"/>
+            <img src={REACTICON} style={{ width: "50px" }}  alt='react' className="animate-slowspin hover:hover:scale-125 transition-transform duration-300"/>
+            <img src={DB} style={{ width: "50px" }} alt='DB' className="animate-leafsway hover:hover:scale-125 transition-transform duration-300"/>
+            <img src={NODE} style={{ width: "50px" }} alt='node' className=" hover:hover:scale-125 transition-transform duration-300"/>
         </div>
         </div>
     )

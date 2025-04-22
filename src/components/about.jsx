@@ -20,7 +20,7 @@ export default function About() {
         viewport={{ once: true }}
         className="text-lg leading-8 text-gray-700 text-center"
       >
-        Hello! I’m a passionate <span className="font-semibold text-blue-600 animate-blink">Full Stack Developer</span> specializing in the 
+        Hello! I’m a passionate <span className="font-semibold text-blue-600 animate-colorchange">Full Stack Developer</span> specializing in the 
         <span className="font-semibold text-green-600 animate-pulse"> MERN Stack</span> (MongoDB, Express.js, React.js, Node.js). I love building fast, responsive, and user-friendly web applications that solve real-world problems.
         <br /><br />
         With a strong foundation in <span className="font-medium text-purple-600">JavaScript ES6+</span> and modern frontend libraries like <span className="font-medium text-pink-600">React</span>, I craft smooth and interactive UIs using <span className="font-medium text-cyan-600">Tailwind CSS</span> and enhance UX with <span className="font-medium text-yellow-500">Framer Motion</span> animations.
