@@ -118,7 +118,7 @@ function Home(){
         </div>
 
 
-        <div className='  py-6 hidden md:felx mt-1 flex-row items-center gap-7 justify-evenly'>
+        <div className='  py-6 hidden md:flex mt-1 flex-row items-center gap-7 justify-evenly'>
             <img src={HTML} style={{ width: "50px" }} alt='HTML' className="hover:hover:scale-125 transition-transform duration-300" />
             <img src={CSS} style={{ width: "50px" }}  alt='CSS'className=" animate-bounce"/>
             <img src={TAILWIND} style={{ width: "50px" }}  alt='tailwind' className="hover:hover:scale-125 transition-transform duration-300"/>
