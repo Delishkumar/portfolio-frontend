@@ -29,9 +29,13 @@ import Footer from "./footer";
   };
 
   return (
-    <div>
-    <div className="  p-14">
-    <div className="max-w-md mx-auto mt-10 p-6 bg-transparent shadow-2xl rounded-2xl">
+    <div >
+      { !success ?(
+            <div className="  p-14" style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1470&q=80')",
+            }}>
+    <div className="max-w-md mx-auto mt-10 p-6 bg-white shadow-2xl rounded-2xl">
       
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
@@ -80,26 +84,44 @@ import Footer from "./footer";
         >
           {isSubmitting ? "Sending..." : "Send Message"}
         </motion.button>
-      </form>
-
-      <AnimatePresence>
-        {success && (
-          <motion.div
-            className="mt-4 text-green-600 font-medium text-center"
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-          >
-            ✅ Message sent successfully!
-          </motion.div>
-        )}
-      </AnimatePresence>
-      </div>
+      </form>   </div>
      
 
-    </div>
+     </div>
+    
+   
+          ):(
+            
+    <div className="max-w-60 h-screen mx-auto mt-10 p-6">
+          <AnimatePresence>
+             <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+            className="bg-white bg-opacity-90 p-8 rounded-xl shadow-lg max-w-sm w-full text-center space-y-4"
+          >
+            <motion.div
+              initial={{ scale: 0 }}
+              animate={{ scale: 1.3 }}
+              transition={{ type: 'spring', stiffness: 300, damping: 15 }}
+              className="text-green-600 text-6xl"
+            >
+              ✅
+            </motion.div>
+            <h2 className="text-2xl font-bold text-green-700">
+              Message send Successful
+            </h2>
+            <p className="text-gray-700 text-sm">
+             will be in touch with you soon 💬...
+            </p>
+          </motion.div>
+          </AnimatePresence>
+          </div>)}
+    
+
     <Footer/>
-    </div>
+      </div>
+       
   );
 }
 export default Contact

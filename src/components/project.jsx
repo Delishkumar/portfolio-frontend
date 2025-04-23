@@ -21,9 +21,9 @@ const fadeInUp = {
   
   const ProjectSection = () => {
     return (
-      <section className="py-16 px-6 bg-gradient-to-r from-cyan-400 to-cyan-200">
+      <section className="py-16 px-6 "  >
         <motion.h2
-          className="text-3xl font-bold text-center text-red-600 mb-12"
+          className="text-3xl font-bold text-center mb-12"
           initial={{ opacity: 0, y: -100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, type: "spring" }}
