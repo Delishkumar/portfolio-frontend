@@ -17,7 +17,7 @@ import Footer from "./footer";
     setIsSubmitting(true);
     try {
       
-       axios.post("https://portfolio-be-kmx2.onrender.com/api/user", formData);
+      await axios.post("https://portfolio-be-kmx2.onrender.com/api/user", formData);
       setSuccess(true);
       setFormData({ name: "", email: "", message: "" });
     } catch (error) {
