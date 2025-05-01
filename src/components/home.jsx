@@ -16,9 +16,9 @@ function Home(){
                 <h2 className='text-3xl md:text-6xl font-bold pb-2'>Hy! I Am</h2>
                 <h2 className='text-4xl md:text-7xl font-bold text-orange-500 py-2'>Delish Kumar</h2>
                 
-      <h1 className="text-pink-600 text-3xl font-mono border-r-2 border-white 
+      <h1 className="text-pink-600 md:text-3xl font-mono border-r-2 border-white 
                      whitespace-nowrap overflow-hidden 
-                     animate-typing">
+                     animate-typing text-2xl">
         MERN Stack Developer
       </h1>
     
