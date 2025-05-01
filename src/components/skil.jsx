@@ -8,6 +8,10 @@ import TAILWIND from './images/tailwindcss.png'
 import REDUX from './images/redux.png'
 import POSTMAN from './images/postman.png'
 import FIREBASE from './images/firebase.png'
+import EXPRESS from './images/icons8-express-js-96.png'
+import GITHUB from './images/icons8-github-logo-100.png'
+import GIT from './images/icons8-git-100.png'
+import ATLAS from './images/icons8-mongodb-100.png'
 
 
 
@@ -58,8 +62,8 @@ function Skil(){
                 </div>
                 <div className='text-center'>
                     
-                <img src={POSTMAN} style={{ width: "70px" }} alt='postman'  className=' hover:hover:scale-125 transition-transform duration-300'/>
-                <p className='p-2 font-mono text-red-600'>Postman</p>
+                <img src={EXPRESS} style={{ width: "70px" }} alt='postman'  className=' hover:hover:scale-125 transition-transform duration-300'/>
+                <p className='p-2 font-mono text-red-600'>Express</p>
                 </div>
                 <div className='text-center'>
                 <img src={FIREBASE} style={{ width: "70px" }} alt='firebase'  className=' animate-fire hover:hover:scale-125 transition-transform duration-300'/>
@@ -71,6 +75,32 @@ function Skil(){
                 </div>
                  
                           
+                </div>
+            </div>
+
+            <div className='p-7'>
+             
+             <h2 className='text-orange-500 text-center p-10 text-2xl text mt-8 font-extrabold animate-colorchange'>Deploy&Tools</h2>
+             <div className='flex flex-col items-center gap-7 md:justify-evenly md:flex-row'>
+               
+                <div className='text-center'>
+                <img src={GITHUB} style={{ width: "70px" }} alt='node'  className=' hover:hover:scale-125 transition-transform duration-300'/>
+                <p className='p-2 font-mono text-lime-600'>Github</p>
+                </div>
+                <div className='text-center'>
+                    
+                <img src={GIT} style={{ width: "70px" }} alt='postman'  className=' hover:hover:scale-125 transition-transform duration-300'/>
+                <p className='p-2 font-mono text-red-600'>Git</p>
+                </div>
+                <div className='text-center'>
+                <img src={POSTMAN} style={{ width: "70px" }} alt='firebase'  className='  hover:hover:scale-125 transition-transform duration-300'/>
+                <p className='p-2 font-mono text-orange-500'>Postman</p>
+                </div>
+                <div className='text-center'>
+                <img src={ATLAS} style={{ width: "70px" }} alt='redux'  className=' hover:hover:scale-125 transition-transform duration-300'/>
+                <p className='p-2 font-mono text-sky-500'>Atlas</p>
+                </div>
+                 
                            
                       
                            

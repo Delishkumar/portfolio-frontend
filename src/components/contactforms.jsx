@@ -31,7 +31,7 @@ import Footer from "./footer";
   return (
     <div >
       { !success ?(
-            <div className="  p-14" style={{
+            <div className="  p-14 h-screen" style={{
               backgroundImage:
                 "url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1470&q=80')",
             }}>

@@ -5,6 +5,7 @@ import weather from './images/weather.png'
 import { motion } from "framer-motion";
 import nostra from './images/nostra.png'
 import greenden from './images/greenden.png'
+import Techshop from './images/Techshop.png'
 const fadeInUp = {
     hidden: { opacity: 0, y: 60 },
     visible: (delay = 0) => ({
@@ -21,9 +22,10 @@ const fadeInUp = {
   
   const ProjectSection = () => {
     return (
-      <section className="py-16 px-6 "  >
+
+      <section className="py-16 px-6 bg-slate-700"  >
         <motion.h2
-          className="text-3xl font-bold text-center mb-12"
+          className="text-3xl font-bold text-center mb-12 text-white"
           initial={{ opacity: 0, y: -100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, type: "spring" }}
@@ -33,12 +35,25 @@ const fadeInUp = {
         </motion.h2>
   
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <ProjectCard
+            title="Techshop E-Commerce"
+            image={Techshop}
+            description="TechShop is a modern, responsive e-commerce web app built with Next.js, featuring product browsing, user authentication, and dynamic routing."
+            stack="React.js, JavaScript, Tailwind CSS,Node.js, Express.js, MongoDB (with Mongoose)"
+            delay={0}
+            bg="from-blue-400 to-blue-200"
+            liveLink="https://techshop-ecommerce-jet.vercel.app/"
+            githubLink="https://github.com/Delishkumar/Techshop-frontend"
+          />
+
+
         <ProjectCard
             title="Nostra E-Commerce"
             image={nostra}
             description="Nostra is a stylish e-commerce shirt website built using HTML, CSS, and JavaScript with a clean and responsive design."
             stack="HTML,CSS,Javascript"
-            delay={0}
+            delay={0.1}
             bg="from-blue-400 to-blue-200"
             liveLink="https://delishkumar.github.io/Nostra-e-com/"
             githubLink="https://github.com/Delishkumar/Nostra-e-com"
@@ -51,7 +66,7 @@ const fadeInUp = {
             image={weather}
             description="Live weather app using OpenWeather API with city search."
             stack="React.js, tailwindCSS, JavaScript, OpenWeather API"
-            delay={0.1}
+            delay={0.2}
             bg="from-yellow-400 to-yellow-200"
             liveLink="https://weatherapp-omega-sandy.vercel.app/"
             githubLink="https://github.com/Delishkumar/weatherapp"
@@ -61,7 +76,7 @@ const fadeInUp = {
             image={greenden}
             description="GreenDen is a simple plant-themed e-commerce page built with HTML, CSS, and JavaScript. 🌿"
             stack="HTML,CSS,Javascript"
-            delay={0.2}
+            delay={0.3}
             bg="from-red-400 to-red-200"
             liveLink="https://delishkumar.github.io/Greenden/"
             githubLink="https://github.com/Delishkumar/Greenden"
@@ -70,8 +85,8 @@ const fadeInUp = {
             title="TripAdvisor Clone"
             image={tripadviser}
             description="A travel booking UI with search, hotel listings, reviews, and ratings."
-            stack="HTML,TailwindCSS,JAVASCRIPT"
-            delay={0.3}
+            stack="HTML,TailwindCSS"
+            delay={0.4}
             bg="from-green-400 to-green-200"
             liveLink="https://delishkumar.github.io/tripadviser-project/"
             githubLink="https://github.com/Delishkumar/tripadviser-project"
@@ -82,7 +97,7 @@ const fadeInUp = {
             image={meeshoclone}
             description="A frontend UI clone of Meesho with product cards and categories."
             stack="HTML, CSS, JavaScript"
-            delay={0.4}
+            delay={0.5}
             bg="from-pink-400 to-pink-200"
             liveLink=" https://delishkumar.github.io/meeshoclone/"
             githubLink="https://github.com/Delishkumar/meeshoclone"
@@ -93,7 +108,7 @@ const fadeInUp = {
             image={udamy}
             description="A full-stack learning platform with course listing and filtering."
             stack="HTML,CSS,React.js"
-            delay={0.5}
+            delay={0.6}
             bg="from-purple-400 to-purple-200"
             liveLink="https://udamy-clone-sigma.vercel.app/"
             githubLink="https://github.com/Delishkumar/udamy-react"
