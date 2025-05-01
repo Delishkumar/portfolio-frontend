@@ -18,7 +18,7 @@ function Home(){
                 
       <h1 className="text-pink-600 md:text-3xl font-mono border-r-2 border-white 
                      whitespace-nowrap overflow-hidden 
-                     animate-typing text-2xl">
+                     animate-typing text-xl">
         MERN Stack Developer
       </h1>
     
