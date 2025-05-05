@@ -25,7 +25,23 @@ function Home(){
               <p className='py-2'>"Hi, I'm a MERN Stack Developer passionate about building fast, full-stack web applications".</p>
 
             <div className="grid justify-center md:justify-start">
-              <img src={myimage} className='w-60 block sm:hidden' alt="my-p" />
+              
+              {/* profile */}
+              <div className="sm:hidden flex justify-center">
+  {/* Rotating Gradient Border on Mobile */}
+  <div className="relative w-60 mx-auto">
+    <div className="absolute inset-0 rounded-full p-[5px] bg-gradient-to-r from-pink-500 via-yellow-500 to-purple-500 animate-spin-slow z-0"></div>
+    <div className="relative rounded-full bg-white p-[5px] z-10">
+      <img
+        src={myimage}
+        className="w-full h-auto rounded-full"
+        alt="my-p"
+      />
+    </div>
+  </div>
+</div>
+
+
 <div className='flex gap-6 mt-10'>
 
 
@@ -110,12 +126,25 @@ function Home(){
 
             </div>
          
-<div className='justify-center hidden sm:block'>
-                <img src={myimage} className='w-60 md:w-96 ' alt="my-s-p" />
+            <div className="justify-center hidden sm:block">
+  {/* Rotating Gradient Border around Static Image */}
+  <div className="relative w-60 md:w-96 mx-auto">
+    {/* Rotating Border */}
+    <div className="absolute inset-0 rounded-full p-1 bg-gradient-to-r from-pink-500 via-yellow-500 to-purple-500 animate-spin-slow z-0"></div>
 
-            </div>
+    {/* Inner White Layer to Mask Behind */}
+    <div className="relative rounded-full bg-white p-1 z-10">
+      <img
+        src={myimage}
+        alt="Profile"
+        className="w-full h-auto rounded-full"
+      />
+    </div>
+  </div>
+</div>
 
-        </div>
+</div>
+        
 
 
         <div className='  py-6 hidden md:flex mt-1 flex-row items-center gap-7 justify-evenly'>

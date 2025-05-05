@@ -31,7 +31,7 @@ module.exports = {
           '75%': { transform: 'translateX(15px) rotate(5deg)' },
           '100%': { transform: 'translateX(0) rotate(0deg)' },
         },
-     
+       
       },
 
 
@@ -43,6 +43,7 @@ module.exports = {
         slowspin: 'spin 8s linear infinite',
         fire: 'fire 0.3s ease-in-out infinite',
         leafsway: 'sway 4s ease-in-out infinite',
+        'spin-slow': 'spin 6s linear infinite',
 
       },
     },
