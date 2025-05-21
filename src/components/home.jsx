@@ -6,7 +6,7 @@ import REACTICON from './images/physics.png'
 import DB from './images/db.png'
 import NODE from './images/nodejs.png'
 import TAILWIND from './images/tailwindcss.png'
-import resume from './images/Delish_MERN stack Developer_Resume.pdf'
+import Resume from './images/Delish_MERN stack Developer_Resume.pdf'
 function Home(){
     return(
         <div className="m-5 md:m-1">
@@ -46,7 +46,7 @@ function Home(){
 
 
 
-<a href= {resume} download="Delish_MERN stack Developer_Resume.pdf">< button class="cursor-pointer flex justify-between bg-lime-500 px-3 py-2 rounded-full text-white tracking-wider shadow-xl hover:bg-amber-500 hover:scale-105 duration-500 hover:ring-1 font-mono w-[170px] md:w-[150px]"
+<a href= {Resume} download="Delish_MERN stack Developer_Resume.pdf">< button class="cursor-pointer flex justify-between bg-lime-500 px-3 py-2 rounded-full text-white tracking-wider shadow-xl hover:bg-amber-500 hover:scale-105 duration-500 hover:ring-1 font-mono w-[170px] md:w-[150px]"
 >
 
  Download CV 

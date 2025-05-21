@@ -79,7 +79,7 @@ import Footer from "./footer";
         <motion.button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-blue-600 text-white py-2 rounded hover:bg-green-600"
+          className="w-full bg-blue-600 text-white py-2 rounded"
           whileTap={{ scale: 0.95 }}
         >
           {isSubmitting ? "Sending..." : "Send Message"}
