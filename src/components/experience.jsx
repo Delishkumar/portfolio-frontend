@@ -21,22 +21,22 @@ const experienceData = [
 
 const Experience = () => {
   return (
-    <section className="py-16 m-5">
-      <h2 className="text-4xl font-bold text-center mb-5 text-blue-600">💼 Experience</h2>
-      <div className="max-w-4xl mx-auto space-y-8">
+    <section className="py-20 px-5 sm:px-10 lg:px-20 bg-gradient-to-br from-gray-50 via-white to-gray-100">
+      <h2 className="text-4xl font-bold text-center mb-12 text-blue-700">💼 Experience</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto">
         {experienceData.map((exp, i) => (
           <motion.div
             key={i}
-            initial={{ opacity: 0, y: 150 }}
+            initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.9, delay: i * 0.2 }}
+            transition={{ duration: 0.8, delay: i * 0.2 }}
             viewport={{ once: true }}
-            className={`bg-gradient-to-r ${exp.color} p-6 rounded-xl shadow-xl transform hover:scale-105 transition-transform duration-300`}
+            className={`bg-gradient-to-r ${exp.color} p-8 rounded-2xl shadow-2xl hover:scale-[1.02] transition-transform duration-300`}
           >
-            <h3 className="text-2xl font-semibold text-center">{exp.role}</h3>
-            <p className="text-sm text-white/80 italic mb-1 text-center">{exp.company}</p>
-            <p className="text-sm text-white/70 mb-1 text-center">{exp.duration}</p>
-            <p className="text-white text-center">{exp.description}</p>
+            <h3 className="text-2xl font-semibold text-white text-center mb-2 drop-shadow-sm">{exp.role}</h3>
+            <p className="text-sm text-white/90 italic mb-1 text-center">{exp.company}</p>
+            <p className="text-xs text-white/80 mb-4 text-center">{exp.duration}</p>
+            <p className="text-white text-sm text-center leading-relaxed tracking-wide">{exp.description}</p>
           </motion.div>
         ))}
       </div>

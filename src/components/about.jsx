@@ -3,8 +3,11 @@ import { motion } from "framer-motion";
 import Education from "./education";
 import Experience from "./experience";
 import Skil from "./skil";
+import Footer from './footer';
+
 export default function About() {
   return (
+    
     <div>
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -33,6 +36,7 @@ export default function About() {
     <Skil/>
 <Education/>
 <Experience/>
+<Footer/>
 </div>
   );
 }
