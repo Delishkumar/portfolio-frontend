@@ -2,6 +2,7 @@ import tripadviser from './images/tripadvise.png';
 import meeshoclone from './images/meesho.png';
 import udamy from './images/udamy.png';
 import weather from './images/weather.png';
+import foodiezilla from './images/foodiezilla.png';
 import { motion } from 'framer-motion';
 import nostra from './images/nostra.png';
 import greenden from './images/greenden.png';
@@ -25,98 +26,108 @@ const fadeInUp = {
 const ProjectSection = () => {
   return (
     <div>
-    <section className="py-16 px-6 bg-black">
-      <motion.h2
-        className="text-4xl font-extrabold text-center mb-12 text-white"
-        initial={{ opacity: 0, y: -100 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, type: 'spring' }}
-        viewport={{ once: true }}
-      >
-        👨‍💻 My Projects
-      </motion.h2>
+      <section className="py-16 px-6 bg-black">
+        <motion.h2
+          className="text-4xl font-extrabold text-center mb-12 text-white"
+          initial={{ opacity: 0, y: -100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, type: 'spring' }}
+          viewport={{ once: true }}
+        >
+          👨‍💻 My Projects
+        </motion.h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-        <ProjectCard
-          title="Techshop E-Commerce"
-          image={Techshop}
-          description="Modern, responsive e-commerce app with user auth and routing."
-          stack="React.js, JavaScript, Tailwind CSS, Node.js, Express.js, MongoDB"
-          delay={0}
-          bg="from-blue-500 to-blue-300"
-          liveLink="https://techshop-ecommerce-jet.vercel.app/"
-          githubLink="https://github.com/Delishkumar/Techshop-frontend"
-        />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <ProjectCard
+            title="Techshop E-Commerce"
+            image={Techshop}
+            description="Modern, responsive e-commerce app with user auth and routing."
+            stack="React.js, JavaScript, Tailwind CSS, Node.js, Express.js, MongoDB"
+            delay={0}
+            bg="from-blue-500 to-blue-300"
+            liveLink="https://techshop-ecommerce-jet.vercel.app/"
+            githubLink="https://github.com/Delishkumar/Techshop-frontend"
+          />
 
-        <ProjectCard
-          title="Nostra E-Commerce"
-          image={nostra}
-          description="Stylish shirt store built using HTML, CSS, and JavaScript."
-          stack="HTML, CSS, JavaScript"
-          delay={0.1}
-          bg="from-purple-500 to-purple-300"
-          liveLink="https://delishkumar.github.io/Nostra-e-com/"
-          githubLink="https://github.com/Delishkumar/Nostra-e-com"
-        />
+          <ProjectCard
+            title="FoodieZilla"
+            image={foodiezilla}
+            description="A stylish food delivery e-commerce site with Razorpay & Firebase auth."
+            stack="React.js, Tailwind CSS, Node.js, MongoDB, Firebase, Razorpay"
+            delay={0.05}
+            bg="from-orange-500 to-yellow-400"
+            liveLink="https://foodiezilla-frontend.vercel.app/"
+            githubLink="https://github.com/Delishkumar/foodiezilla-frontend"
+          />
 
-        <ProjectCard
-          title="Weather App"
-          image={weather}
-          description="Live weather tracking with OpenWeather API."
-          stack="React.js, Tailwind CSS, JavaScript, API"
-          delay={0.2}
-          bg="from-yellow-500 to-yellow-300"
-          liveLink="https://weatherapp-omega-sandy.vercel.app/"
-          githubLink="https://github.com/Delishkumar/weatherapp"
-        />
+          <ProjectCard
+            title="Nostra E-Commerce"
+            image={nostra}
+            description="Stylish shirt store built using HTML, CSS, and JavaScript."
+            stack="HTML, CSS, JavaScript"
+            delay={0.1}
+            bg="from-purple-500 to-purple-300"
+            liveLink="https://delishkumar.github.io/Nostra-e-com/"
+            githubLink="https://github.com/Delishkumar/Nostra-e-com"
+          />
 
-        <ProjectCard
-          title="Greenden E-Commerce"
-          image={greenden}
-          description="Simple plant-themed shopping page."
-          stack="HTML, CSS, JavaScript"
-          delay={0.3}
-          bg="from-green-500 to-green-300"
-          liveLink="https://delishkumar.github.io/Greenden/"
-          githubLink="https://github.com/Delishkumar/Greenden"
-        />
+          <ProjectCard
+            title="Weather App"
+            image={weather}
+            description="Live weather tracking with OpenWeather API."
+            stack="React.js, Tailwind CSS, JavaScript, API"
+            delay={0.2}
+            bg="from-yellow-500 to-yellow-300"
+            liveLink="https://weatherapp-omega-sandy.vercel.app/"
+            githubLink="https://github.com/Delishkumar/weatherapp"
+          />
 
-        <ProjectCard
-          title="TripAdvisor Clone"
-          image={tripadviser}
-          description="Travel booking UI with hotel listings and reviews."
-          stack="HTML, Tailwind CSS"
-          delay={0.4}
-          bg="from-pink-500 to-pink-300"
-          liveLink="https://delishkumar.github.io/tripadviser-project/"
-          githubLink="https://github.com/Delishkumar/tripadviser-project"
-        />
+          <ProjectCard
+            title="Greenden E-Commerce"
+            image={greenden}
+            description="Simple plant-themed shopping page."
+            stack="HTML, CSS, JavaScript"
+            delay={0.3}
+            bg="from-green-500 to-green-300"
+            liveLink="https://delishkumar.github.io/Greenden/"
+            githubLink="https://github.com/Delishkumar/Greenden"
+          />
 
-        <ProjectCard
-          title="Meesho Clone"
-          image={meeshoclone}
-          description="Frontend UI clone of Meesho."
-          stack="HTML, CSS, JavaScript"
-          delay={0.5}
-          bg="from-red-500 to-red-300"
-          liveLink="https://delishkumar.github.io/meeshoclone/"
-          githubLink="https://github.com/Delishkumar/meeshoclone"
-        />
+          <ProjectCard
+            title="TripAdvisor Clone"
+            image={tripadviser}
+            description="Travel booking UI with hotel listings and reviews."
+            stack="HTML, Tailwind CSS"
+            delay={0.4}
+            bg="from-pink-500 to-pink-300"
+            liveLink="https://delishkumar.github.io/tripadviser-project/"
+            githubLink="https://github.com/Delishkumar/tripadviser-project"
+          />
 
-        <ProjectCard
-          title="Udemy Clone"
-          image={udamy}
-          description="Course platform with filtering and listings."
-          stack="HTML, CSS, React.js"
-          delay={0.6}
-          bg="from-indigo-500 to-indigo-300"
-          liveLink="https://udamy-clone-sigma.vercel.app/"
-          githubLink="https://github.com/Delishkumar/udamy-react"
-        />
-      </div>
-      
-    </section>
-    <Footer/>
+          <ProjectCard
+            title="Meesho Clone"
+            image={meeshoclone}
+            description="Frontend UI clone of Meesho."
+            stack="HTML, CSS, JavaScript"
+            delay={0.5}
+            bg="from-red-500 to-red-300"
+            liveLink="https://delishkumar.github.io/meeshoclone/"
+            githubLink="https://github.com/Delishkumar/meeshoclone"
+          />
+
+          <ProjectCard
+            title="Udemy Clone"
+            image={udamy}
+            description="Course platform with filtering and listings."
+            stack="HTML, CSS, React.js"
+            delay={0.6}
+            bg="from-indigo-500 to-indigo-300"
+            liveLink="https://udamy-clone-sigma.vercel.app/"
+            githubLink="https://github.com/Delishkumar/udamy-react"
+          />
+        </div>
+      </section>
+      <Footer />
     </div>
   );
 };
@@ -158,4 +169,5 @@ const ProjectCard = ({ title, image, description, stack, delay, bg, liveLink, gi
 );
 
 export default ProjectSection;
+
 
