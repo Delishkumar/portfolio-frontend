@@ -130,7 +130,7 @@ function Home(){
   {/* Rotating Gradient Border around Static Image */}
   <div className="relative w-60 md:w-96 mx-auto">
     {/* Rotating Border */}
-    <div className="absolute inset-0 rounded-full p-1 bg-gradient-to-r from-pink-500 via-yellow-500 to-purple-500 animate-spin-slow z-0"></div>
+    <div className="absolute inset-0 rounded-full p-1 bg-gradient-to-r from-pink-600 via-yellow-500 to-purple-500 animate-spin-slow z-0"></div>
 
     {/* Inner White Layer to Mask Behind */}
     <div className="relative rounded-full bg-white p-1 z-10">

@@ -54,7 +54,7 @@ const ProjectSection = () => {
             image={foodiezilla}
             description="A stylish food delivery e-commerce site with Razorpay & Firebase auth."
             stack="React.js, Tailwind CSS, Node.js, MongoDB, Firebase, Razorpay"
-            delay={0.05}
+            delay={0.06}
             bg="from-orange-500 to-yellow-400"
             liveLink="https://foodiezilla-frontend.vercel.app/"
             githubLink="https://github.com/Delishkumar/foodiezilla-frontend"
